@@ -11,3 +11,17 @@ referencia MDN
 
 Referencia W3C
 (W3C Standards Word Wide Web Consortium)
+
+
+WHATWG Living Standard
+(Web Hypertext Application Tecnology Working Grtoup)
+
+W3Schools
+(Redsnes Data)
+
+ LIVROS
+
+ HTML5
+ Mark Pilgrim
+ (O'willy)
+ FLEXBIB in CSS
