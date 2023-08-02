@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/*Imporando uma fonte externa*/
+@font-face {
+  font-family: Android;
+  src: url(/fontes/idroid.otf) format('opentype');
+  font-weight: normal;
+}
+
+/*Configuração de cores e tamanhos do Scrollbar(barra de rolagem)*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--cor3); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--cor4);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--cor2); 
+}   
+
+
+
+/* Definindo as configurações de variaveis*/
+:root{
+  --cor0: #c5ebc6;
+  --cor1: #83e1ad;
+  --cor2: #3ddc84;
+  --cor3: #2fa866;
+  --cor4: #1a5c37;
+  --cor5: #063d1e;
+
+  --fontepadrao: Arial,Verdana,Helvetica, sans-serif;
+  --fonte0: Arial, Helvetica, sans-serif;
+  --fonte-destaque: 'Bebas Neue', cursive;
+  --fonte-android: 'Android', sans-serif;
+
+
+}
+
+
+body{
+    background-color: #c5ebd6;
+    font-family: var(--fontepadrao);
+}
+
+header > h1{
+  font-family: var(--fonte-destaque);
+}
+main h1{
+  font-family: var(--fonte-android);
+}
+
+main h2{
+  font-family: var(--fonte-android);
+}
+
+

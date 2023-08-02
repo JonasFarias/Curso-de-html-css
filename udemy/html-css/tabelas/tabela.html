@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ranking</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 400px;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: #4CAF50;
+      color: #ffffff;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var data = [
+        { posicao: 1, nome: "João", pontuacao: 100 },
+        { posicao: 2, nome: "Maria", pontuacao: 90 },
+        { posicao: 3, nome: "Carlos", pontuacao: 85 }
+      ];
+      
+      var tableBody = document.getElementById("table-body");
+      
+      data.forEach(function(item) {
+        var row = document.createElement("tr");
+        
+        var posicaoCell = document.createElement("td");
+        posicaoCell.textContent = item.posicao;
+        row.appendChild(posicaoCell);
+        
+        var nomeCell = document.createElement("td");
+        nomeCell.textContent = item.nome;
+        row.appendChild(nomeCell);
+        
+        var pontuacaoCell = document.createElement("td");
+        pontuacaoCell.textContent = item.pontuacao;
+        row.appendChild(pontuacaoCell);
+        
+        tableBody.appendChild(row);
+      });
+    });
+  </script>
+</head>
+<body>
+  <h1>Ranking</h1>
+  <table>
+    <tr>
+      <th>Posição</th>
+      <th>Nome</th>
+      <th>Pontuação</th>
+    </tr>
+    <tbody id="table-body">
+    </tbody>
+  </table>
+</body>
+</html>
