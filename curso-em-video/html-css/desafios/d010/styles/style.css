@@ -7,6 +7,8 @@
   font-weight: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&display=swap');
+
 /*Configuração de cores e tamanhos do Scrollbar(barra de rolagem)*/
 /* width */
 ::-webkit-scrollbar {
@@ -41,21 +43,68 @@
 
   --fontepadrao: Arial,Verdana,Helvetica, sans-serif;
   --fonte0: Arial, Helvetica, sans-serif;
-  --fonte-destaque: 'Bebas Neue', cursive;
+  --fonte-destaque: 'Bebas Neue', sans-serif;
   --fonte-android: 'Android', sans-serif;
-
-
 }
 
+*{
+  margin: 0px;
+  padding: 0px;
+}
 
 body{
     background-color: #c5ebd6;
     font-family: var(--fontepadrao);
+    
+}
+header{
+  background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+  min-height: 150px;
+  background-color: var(--cor4);
+  padding-top: 40px;
+  text-align: center;
 }
 
 header > h1{
   font-family: var(--fonte-destaque);
+  color: white;
+  margin-bottom: 20px;
 }
+header > p{
+  color: white;
+  font-family: var(--fontepadrao);
+  font-size: 1.2em;
+  width: 500px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+  
+}
+nav{
+  background-color: var(--cor5)
+}
+main{
+  background-color: white;
+  padding: 20px;
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.688);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+main img{
+  width: 100%;
+}
+
+main img.pequena{
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
 main h1{
   font-family: var(--fonte-android);
 }
@@ -64,4 +113,8 @@ main h2{
   font-family: var(--fonte-android);
 }
 
+footer{
+  background-color: var(--cor5);
+  color: white;
+}
 
