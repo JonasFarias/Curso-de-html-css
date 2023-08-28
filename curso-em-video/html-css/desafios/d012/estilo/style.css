@@ -1,13 +1,26 @@
 @charset "UTF-8";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Passion+One&family=Sriracha&display=swap');
+
+
+:root{
+    --font1: 'Passion One', cursive;
+    --font2: 'Sriracha', cursive;
+    --font3: 'verdana', Geneva, Tahoma, sans-serif;
+}
+
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 header{
+    font-family: var(--font1);
     background-color: black;
     color: white;
     text-align: center;
+    font-size: 5vw;
    
 }
 header>h1{
@@ -24,6 +37,8 @@ html,body{
 }
 
 section{
+    font-family: var(--font2);
+    line-height: 2em;
     padding-left: 30px;
     padding-top: 10vh;
     padding-bottom: 10vh;
