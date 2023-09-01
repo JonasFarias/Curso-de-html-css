@@ -51,12 +51,39 @@ section.normal{
 
 }
 
+section#img01{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    
+}
+
+
+
+section#img02{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
 section.imagem{
-    width: 300px;
     background-color: rgb(32, 31, 31);
-    color: white
+    color: white;
+    background-attachment: fixed;    
 
 }
+
+section.imagem > p{
+    width: 300px;
+    background-color:rgba(0, 0, 0, 0.208);
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+
+
 footer{
     padding: 20px;
     background-color: black;
