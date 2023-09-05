@@ -1,20 +1,27 @@
-a# Curso-de-html-css
- 
+# Curso de HTML & CSS
 
-BIBLIOGRAFIA
+## BIBLIOGRAFIA
 
+### Material curso em video
 
-Material curso em video
+### Referencia MDN (mozilla Developer Network)<br>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
+HTML
+</a><br>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
+CSS
+</a> 
+<br>
 
-referencia MDN
-(mozilla Developer Network)
-
-Referencia W3C
-(W3C Standards Word Wide Web Consortium)
-
+### Referencia W3C
+(W3C Standards Word Wide Web Consortium)<br>
+<br>
+<a href="https://www.w3c.br/">
+W3C
+</a>
 
 WHATWG Living Standard
-(Web Hypertext Application Tecnology Working Grtoup)
+(Web Hypertext Application Tecnology Working Group)
 
 W3Schools
 (Redsnes Data)
