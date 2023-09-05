@@ -14,8 +14,15 @@ por linha.
 
 ### < table > 'Tabela'
 
-O elemento `<table>` é usado para criar uma tabela.
+O elemento `<table> </table>` é usado para criar uma tabela.
 
 ### < Tr > 'Table Row' 'Linha da Tabla'
 
 `<tr>` Indica o início de cada linha.
+`</tr>` Fechamento da tag `<tr>`
+
+### < Td > 'Table Data' 'Dados da Tabela'
+
+Cada célula de uma tabela é 
+representado usando um elemento `<td>`.<br>
+`</td>` Fechamento da tag
