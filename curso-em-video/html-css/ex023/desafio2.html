@@ -27,21 +27,21 @@
 <body>
     <table>
         <thead>
-            <tr>
+            <>
                 <th rowspan="2" scope="col">Área</th>
-                <th rowspan="2">Disciplinas</th>
-                <th colspan="2">Notas</th>
-                <th rowspan="2">Média</th>      
-            </tr>
+                <th rowspan="2" scope="col">Disciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Média</th>      
+colgroup
             <tr>
-                <th>Nota 1</th>
-                <th>Nota 2</th>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
             </tr>
         </thead>
             <tbody>
                 <tr>
-                    <td rowspan=" 4"><strong>Exatas</strong></td>
-                    <td>Matematica</td>
+                    <td rowspan=" 4" scope="rowgroup"><strong>Exatas</strong></td>
+                    <td scope="rowgroup">Matematica</td>
                     <td class="num">0.0</td>
                     <td class="num">0.0</td>
                     <td class="num">0.0</td>
@@ -70,7 +70,7 @@
                     <th class="num">0.0</th>
                 </tr>
                 <tr>
-                    <td rowspan="2"><strong>Humanas</strong></td>
+                    <td rowspan="2" scope="rowgroup"><strong>Humanas</strong></td>
                     <td>História</td>
                     <td class="num">0.0</td>
                     <td class="num">0.0</td>
